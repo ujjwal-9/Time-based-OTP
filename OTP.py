@@ -4,9 +4,10 @@ import time
 import sys
 import struct
 
-shared_secret = input("Enter Shared Secret Key : ")
-pass_len = input("Enter Pass Length : ")
+shared_secret = str(raw_input("Enter Shared Secret Key : "))
+pass_len = int(input("Enter Pass Length : "))
 
+"""HyperParameters :)"""
 timestep = 30
 T0 = 0
 
